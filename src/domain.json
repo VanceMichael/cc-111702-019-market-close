@@ -1,0 +1,10 @@
+{
+  "initial": {
+    "sessions": {},
+    "quotes": {}
+  },
+  "route": {
+    "method": "GET",
+    "path": "/live"
+  }
+}
