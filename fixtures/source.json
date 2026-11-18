@@ -26,6 +26,45 @@
           }
         }
       ]
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/M1/close",
+      "responses": [
+        {
+          "body": {
+            "session": "M1",
+            "closedThrough": 1,
+            "historyRanges": [
+              [
+                1,
+                1
+              ]
+            ],
+            "correctionRevision": 0
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/M1/history",
+      "responses": [
+        {
+          "body": {
+            "session": "M1",
+            "sequence": 1,
+            "quotes": [
+              {
+                "quoteId": "Q1",
+                "sourceTime": 90,
+                "gatewayTime": 91,
+                "amount": 100
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
