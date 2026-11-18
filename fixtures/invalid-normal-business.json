@@ -1,0 +1,46 @@
+[
+  {
+    "name": "场次不符",
+    "changes": {
+      "session": "M2"
+    }
+  },
+  {
+    "name": "进度无效",
+    "changes": {
+      "sequence": -1
+    }
+  },
+  {
+    "name": "时点颠倒",
+    "changes": {
+      "quotes": [
+        {
+          "quoteId": "Q1",
+          "sourceTime": 20,
+          "gatewayTime": 10,
+          "amount": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "报价重复",
+    "changes": {
+      "quotes": [
+        {
+          "quoteId": "Q1",
+          "sourceTime": 10,
+          "gatewayTime": 11,
+          "amount": 1
+        },
+        {
+          "quoteId": "Q1",
+          "sourceTime": 10,
+          "gatewayTime": 11,
+          "amount": 1
+        }
+      ]
+    }
+  }
+]
